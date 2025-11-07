@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center text-center gap-6 py-16">
       <h1 className="text-4xl sm:text-5xl font-extrabold ">
-        Join or Host Hackathons at <span className="text-gu-red">Geeta University</span>
+        Join or Host Hackathons at <span className="text-orange-600">Geeta University</span>
       </h1>
       <p className="max-w-2xl text-lg text-neutral-600">
         Find teammates, explore projects, and collaborate in real-time with GU HackConnect.

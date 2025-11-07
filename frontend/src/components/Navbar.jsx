@@ -1,4 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom'
+import logo from './images/logo.png';
 
 export default function Navbar() {
   const navigate = useNavigate()
@@ -15,7 +16,11 @@ export default function Navbar() {
     <nav className="bg-white border-b">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-full bg-gu-red" />
+           <img
+            src={logo}
+            alt="Geeta University Logo"
+            className="w-8 h-8 rounded-full object-cover"
+            />
           <span className="font-bold">GU HackConnect</span>
         </Link>
         <div className="flex items-center gap-4">
